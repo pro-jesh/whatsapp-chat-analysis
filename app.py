@@ -138,33 +138,7 @@ if st.session_state["my_input"]  is not None:
         ax = sns.heatmap(user_heatmap)
         st.pyplot(fig)
 
-        # selected_movie_name = st.selectbox(
-        #     'How would you like to be contacted?',
-        #     df['user'].values)
-        #
-        # if st.button('Recommend'):
-        #     st.write(selected_movie_name)
 
-
-        # if selected_user == 'Overall':
-        #     st.title('Word search')
-        #
-        #     #st.write(title)
-        #     #if(title!=''):
-        #     if "tit" not in st.session_state:
-        #         st.session_state["tit"]=""
-        #     tit = st.sidebar.text_input("Enter the word to be searched", st.session_state["tit"])
-        #     submit=st.button("Submit")
-        #     if(submit):
-        #         st.session_state["tit"]=tit
-        #         st.write(st.session_state["tit"])
-        #
-        #
-        #
-        #
-        #         most_common = helper.word_count(df, tit)
-        #         st.session_state["tit"] = most_common
-        #         st.dataframe(st.session_state["tit"])
 
 
 
